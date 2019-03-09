@@ -46,13 +46,21 @@
         height: 25px;
       }
       #header-img {
-        width: 5%;
+          width: 50%;
         height: 25px;
         display: block;
+        border-radius: 100%;
         margin: 1.3em auto;
         max-width: 95%;
         max-width: 5%;
         max-height: 25px;
+      }
+      #form{
+        margin-top: 50px;
+        width: 100%
+      }
+      #video{
+        margin-top: 50px;
       }
       </style>
   </head>
@@ -72,15 +80,12 @@
 
 
 
-
-       <section id="Features">
-
+<section id="Features">
          <video controls="true" id="video">
            <source src="" type="mp4">
          </video>
-
        </section>
-
+</sections
 
 
 
@@ -91,25 +96,26 @@
        </section>
 
 
+<div class="container">
 
 
-
-       <section id="Pricing">
+       <section id="Pricing" class="col-sm-6 col-sm-offset-3"">
 
 
        </section>
 
-    <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
-        <input id="email" name="email" placeholder="enter your email here" type="email">
-        <input class="btn btn-sm" type="submit" id="submit">
-       </form>
+    <form action="https://www.freecodecamp.com/email-submit" method="post" id="form" >
+    <h1 class="text-center" style="font-size: 15px;">Handcrafted, home-made masterpieces</h1>
+    <input id="email" name="email" placeholder="enter your email here" type="email">
+        <input  class="btn btn-sm btn-warning" type="submit" id="submit">
+  </form>
 
 
 
 
 
 
-
+</div>
     <script  src="js/index.js"></script>
   </body>
 </html>
