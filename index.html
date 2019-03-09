@@ -4,18 +4,69 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <style>
+      /* Extra small devices (phones, 600px and down) */
+      @media only screen and (max-width: 600px) {
+          body
+          {
+            background-color: silver;
+          }
+      }
+      /* Small devices (portrait tablets and large phones, 600px and up) */
+      @media only screen and (min-width: 600px) {
+          body
+          {
+            background-color: silver;
+          }
+      }
+      /* Medium devices (landscape tablets, 768px and up) */
+      @media only screen and (min-width: 768px) {
+          body
+          {
+            background-color: silver;
+          }
+      }
+      /* Large devices (laptops/desktops, 992px and up) */
+      @media only screen and (min-width: 992px) {
+          body
+          {
+            background-color: silver;
+          }
+      }
+      /* Extra large devices (large laptops and desktops, 1200px and up) */
+      @media only screen and (min-width: 1200px) {
+          body
+          {
+            background-color: silver;
+          }
+      }
+      header {
+        height: 25px;
+      }
+      #header-img {
+        width: 5%;
+        height: 25px;
+        display: block;
+        margin: 1.3em auto;
+        max-width: 95%;
+        max-width: 5%;
+        max-height: 25px;
+      }
+      </style>
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   
      <header id="header">
-      <nav id="nav-bar">
+      <nav id="nav-bar" class="navbar navbar-fixed-top">
              <a href="#Features" class="nav-link">Features</a>
            <a href="#howItWorks" class="nav-link">How It Works</a>
            <a href="#Pricing" class="nav-link">Pricing</a>
          </nav>
-         <img src="" id="header-img">
+         <img src="https://raw.githubusercontent.com/Forison/IbraAndForis/master/range-rover-evoque.png" id="header-img">
        </header>
 
 
@@ -48,9 +99,9 @@
 
        </section>
 
-    <form id="form">
-         <input id="email" placeholder="enter your email here" type="email">
-        <input class="btn btn-sm" type="submit" id="submit"> 
+    <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+        <input id="email" name="email" placeholder="enter your email here" type="email">
+        <input class="btn btn-sm" type="submit" id="submit">
        </form>
 
 
